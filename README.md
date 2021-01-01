@@ -15,7 +15,7 @@ The MakeFile provided executes several steps. These are enumerated below for sak
 
 1. Ubuntu/Debian packages
     
-    ` onda install python=3.6.5`
+    ` conda install python=3.6.5`
     
     `sudo apt install clang python3-pip unzip gzip curl sqlite3`
 
