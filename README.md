@@ -35,6 +35,7 @@ The MakeFile provided executes several steps. These are enumerated below for sak
     Create symbolic link (if it doesn't already exist) to enable Python-Clang bind
     ```
     sudo apt-get install -y libclang-dev
+    sudo ln -sf libclang-11.so libclang.so
     cd /usr/lib/x86_64-linux-gnu/
     sudo ln -s libclang-XX.YY.so.1 libclang.so
     ```
